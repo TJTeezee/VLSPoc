@@ -11,11 +11,11 @@
   <script src="https://vls--primo.lightning.force.com/lightning/lightning.out.js"></script>
   
   <script>
-      $Lightning.use("c:ColorContactUsOut", function() {
-      $Lightning.createComponent("c:colorContactUs", 
+      $Lightning.use("c:VlsLO", function() {
+      $Lightning.createComponent("c:leadCaptureLO", 
                                  {}, 
                                  "contactUs", 
-                                 function(cmp) {console.log("Contact Us Created")}
+                                 function(cmp) {console.log("VLS LO Created")}
                                 );
     }, 
     'https://vls--primo.lightning.force.com')
